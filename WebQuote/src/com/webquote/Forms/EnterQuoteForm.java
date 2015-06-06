@@ -146,8 +146,8 @@ public class EnterQuoteForm extends VerticalLayout implements View {
 		//verticalLayout.addComponent(labelTitle);
 		wrap.addComponent(labelTitle);
 		
-		Label labelTitle2=new Label("New WebQuote");
-		labelTitle2.addStyleName("h2");
+		Label labelTitle2=new Label("Key Cod:");
+		labelTitle2.addStyleName("failure");
 		//verticalLayout.addComponent(labelTitle);
 		wrap.addComponent(labelTitle2);
 		wrap.setComponentAlignment(labelTitle2, Alignment.TOP_RIGHT);
