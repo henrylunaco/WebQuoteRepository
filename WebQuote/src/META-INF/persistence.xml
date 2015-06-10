@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="WebQuote" transaction-type="RESOURCE_LOCAL">
+		<class>com.webquote.EntityClasses.ChangeType</class>
+		<class>com.webquote.EntityClasses.City</class>
+		<class>com.webquote.EntityClasses.Country</class>
+		<class>com.webquote.EntityClasses.EventType</class>
+		<class>com.webquote.EntityClasses.Product</class>
+		<class>com.webquote.EntityClasses.ProductsType</class>
+		<class>com.webquote.EntityClasses.Provider</class>
+		<class>com.webquote.EntityClasses.Tblwebquote</class>
+		<class>com.webquote.EntityClasses.TopologyType</class>
+		<class>com.webquote.EntityClasses.Unit</class>
+		<class>com.webquote.EntityClasses.User</class>
+		<class>com.webquote.EntityClasses.WebquoteDetailProgress</class>
+		<class>com.webquote.EntityClasses.WebquoteDetail</class>
+		<class>com.webquote.EntityClasses.WebquoteType</class>
+		<class>com.webquote.EntityClasses.RequestType</class>
+		<class>com.webquote.EntityClasses.StatusType</class>
+		<class>com.webquote.EntityClasses.Profile</class>
+		<class>com.webquote.EntityClasses.UserGroup</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://10.10.1.11:3306/webquotedb"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+			<property name="javax.persistence.jdbc.user" value="root"/>
+			<property name="javax.persistence.jdbc.password" value=""/>
+		</properties>
+	</persistence-unit>
+</persistence>
